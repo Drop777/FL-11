@@ -1,0 +1,367 @@
+body {
+    margin: 0px;
+    color: white;
+    font-family: "Open Sans";
+}
+.main {
+    max-width: 1400px;
+    margin: 0px auto;
+}
+.main .header-wrap {
+    background-image: url(../img/sample2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 1000px;
+}
+.main .header {
+    max-width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main .header .bar {
+    display: flex;
+    justify-content: space-between;
+}
+.main .header .bar .logo {
+    display: block;
+    margin: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+}
+.main .header .bar .h-button {
+    display: block;
+    margin: 50px;
+}
+.main .header .bar .h-button .header-button-login {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: "Open Sans";
+    margin-right: 50px;
+}
+.main .header .bar .h-button .header-button-signup {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 15px; 
+}
+.main .header .bar .h-button .header-button-login:hover, 
+.main .header .bar .h-button .header-button-signup:hover {
+    color: orange;
+}
+.main .header .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto;
+}
+.main .header .heading h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.main .header .heading h2 span {
+    font-size: 100px;
+}
+.main .header .heading .heading-text {
+    text-transform: none;
+    font-size: 15px;
+}
+.main .header .button {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 170px;
+}
+.main .header .button .button-careers,
+.main .header .button .button-about,
+.main .header .button .button-show {
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    padding: 10px 90px;
+    border: 2px solid white;
+}
+.main .header .button .button-careers:hover,
+.main .header .button .button-about:hover,
+.main .header .button .button-show:hover {
+    color: orange;
+    border: 2px solid orange;
+}
+.main .black-white {
+    background-color: burlywood;
+    display: flex;
+    background: linear-gradient(9deg, rgb(243, 243, 243) 50%, black 50%);
+    height: 300px;
+}
+.main .black-white .bw-text {
+    display: flex;
+    justify-content: space-around;
+}
+.main .black-white .bw-text-1  {
+    position: relative;
+    width: 50%;
+}    
+.main .black-white .bw-text-1 .text-one {
+    position: absolute;
+    bottom: 40px;
+    color: black;
+    margin: 20px 30px 40px 50px;
+    font-size: 20px;
+}
+.main .black-white .bw-text-1 .text-one span {
+    font-weight: bold;
+}
+.main .black-white .bw-text-2 {
+    color: white;
+    width: 50%;
+} 
+.main .black-white .bw-text-2 .text-two {
+    margin: 20px 30px;
+}
+.main .main-content {
+    background-color: rgb(243, 243, 243);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+}
+.main .main-content .main-content-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    top: -90px;
+    right: 400px;
+}
+.main .main-content .main-content-heading span {
+    font-weight: bold;
+}
+.main .main-content .block-1,
+.main .main-content .block-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 420px;
+    padding: 0px 40px;
+}
+.main .main-content .block-1 .block-1-img,
+.main .main-content .block-2 .block-2-img {
+    background-image: url(../img/sample-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+.main .main-content .block-2 .block-2-img {
+    background-image: url(../img/sample-2.jpg);
+    order: 2;
+}
+.main .main-content .block-1 .block-1-text,
+.main .main-content .block-2 .block-2-text {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     height: 400px;
+} 
+.main .main-content .block-2 .block-2-text {
+    order: 1;
+}
+.main .main-content .block-1 .block-1-text p,
+.main .main-content .block-2 .block-2-text p {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.main .main-content .block-1 .block-1-img button,
+.main .main-content .block-2 .block-2-img button {
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 5px 15px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.main .main-content .block-1 .block-1-img .date,
+.main .main-content .block-2 .block-2-img .date {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+}
+.main .main-content .block-1 .block-1-img .date span,
+.main .main-content .block-2 .block-2-img .date span {
+    font-weight: bold;
+}
+.main .main-content .block-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-height: 450px;
+    padding-top: 50px;
+    background-color: white;
+}
+.main .main-content .block-3 .block-3-img-1,
+.main .main-content .block-3 .block-3-img-2,
+.main .main-content .block-3 .block-3-img-3,
+.main .main-content .block-3 .block-3-img-4 {
+    background-image: url(../img/news-list-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    display: block;
+    width: 21%;
+    height: 400px;
+    position: relative;
+}
+.main .main-content .block-3 .block-3-img-2 {
+    background-image: url(../img/news-list-2.jpg);
+}
+.main .main-content .block-3 .block-3-img-3 {
+    background-image: url(../img/news-list-3.jpg);
+}
+.main .main-content .block-3 .block-3-img-4 {
+    background-image: url(../img/news-list-4.jpg);
+}
+.main .main-content .block-3 .block-3-img-1 .like,
+.main .main-content .block-3 .block-3-img-2 .like,
+.main .main-content .block-3 .block-3-img-3 .like,
+.main .main-content .block-3 .block-3-img-4 .like {
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    padding: 10px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.main .main-content .block-3 .block-3-img-1 .explore,
+.main .main-content .block-3 .block-3-img-2 .explore,
+.main .main-content .block-3 .block-3-img-3 .explore,
+.main .main-content .block-3 .block-3-img-4 .explore {
+    position: absolute;
+    top: 160px;
+    right: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(40, 128, 126, .8);
+    padding: 12px 80px;
+    border: none;
+}
+.main .main-content .block-3 .block-3-img-1 .date,
+.main .main-content .block-3 .block-3-img-2 .date,
+.main .main-content .block-3 .block-3-img-3 .date,
+.main .main-content .block-3 .block-3-img-4 .date {
+    color: white;
+    position: absolute;
+    bottom: 1px;
+    left: 25px;
+}
+.main .main-content .block-3 .block-3-img-1 .date span,
+.main .main-content .block-3 .block-3-img-2 .date span,
+.main .main-content .block-3 .block-3-img-3 .date span,
+.main .main-content .block-3 .block-3-img-4 .date span {
+    font-weight: bold;
+}
+.main .main-content .load-button {
+    background-color: white;
+    position: relative;
+    min-height: 100px;
+}
+.main .main-content .load-button button {
+    position: absolute;
+    top: 1px;
+    right: 540px;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(40, 128, 126);
+    padding: 16px 120px;
+    border: none;
+    margin: auto;
+}
+.main .main-content .load-button button:hover {
+    background-color: white;
+    color: rgb(40, 128, 126);
+    border: 2px solid rgb(40, 128, 126);
+}
+.main footer {
+    background-color: rgb(243, 243, 243);
+    color: black;
+    position: relative;
+}
+.main footer .form {
+    min-height: 190px;
+}
+.main footer .form .form-text {
+    padding: 60px 80px 20px 20px;
+    font-size: 15px;
+}
+.main footer .form form {
+    position: absolute;
+    right: 10px;
+    top: 130px;
+}
+.main footer .form form label {
+    font-size: 25px;
+}
+.main footer .form form label span {
+    font-weight: bold;
+}
+.main footer .form form label .in-text {
+    background-color: inherit;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.main footer .form form .submit-button {
+    color: white;
+    font-size: 17px;
+    background-color: rgb(40, 128, 126);
+    padding: 8px 18px;
+    border: none;
+    margin: auto;
+    border: 1px solid transparent;
+}
+.main footer .form form .submit-button:hover {
+    background-color: rgb(243, 243, 243);
+    color: rgb(40, 128, 126);
+    border: 1px solid rgb(40, 128, 126);
+}
+.main footer .bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.main footer .bottom-bar p {
+    color: rgb(146, 146, 146);
+}
+.main footer .bottom-bar .bottom-bar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.main footer .bottom-bar .bottom-bar-nav button {
+    background-color: white;
+    font-size: 15px;
+    border: none;
+}
+.main footer .bottom-bar .bottom-bar-nav button:hover {
+    background-color: rgb(243, 243, 243);
+}
