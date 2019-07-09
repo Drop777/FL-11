@@ -18,7 +18,6 @@ if (wannaPlay) {
     let half = 2;
     let congratulationMessage = 'Congratulation, you won! Your prize is: ';
     let contineMessage = 'Do you want to continue?';
-    console.log(rand);
     main: do {
         wantAgain: while (wannaPlay) {
             while (wannaPlayAgain) {
@@ -54,7 +53,6 @@ if (wannaPlay) {
                         totalPrize = 0;
                         maxRange = startRange;
                         rand = Math.round(Math.random() * maxRange);
-                        console.log(rand);
                         break;
                     } else {
                         break main;
@@ -71,7 +69,6 @@ if (wannaPlay) {
         while (wantContinue) {
             maxRange += countRange;
             rand = Math.round(Math.random() * maxRange);
-            console.log(rand);
             price *= half;
             possiblePrice = price;
             currentPrice = possiblePrice;
