@@ -16,6 +16,7 @@ function getNumbers(str) {
 }
 
 
+
 function findTypes() {
     let types = {};
     let countNumber = 0;
