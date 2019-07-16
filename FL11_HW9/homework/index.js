@@ -103,11 +103,11 @@ function daysBetween(dateFirst, dateSecond) {
     let dayFirst = dateFirst.getTime();
     let daySecond = dateSecond.getTime();
     let difference = daySecond - dayFirst;
-    let ms = 1000;
-    let sec = 60;
-    let minutes = 60;
-    let hours = 24;
-    let negative = -1;
+    const ms = 1000;
+    const sec = 60;
+    const minutes = 60;
+    const hours = 24;
+    const negative = -1;
     difference = Math.ceil(difference / (ms * sec * minutes * hours));
     if (difference < 0) {
         difference *= negative;
@@ -156,11 +156,11 @@ function getAmountOfAdultPeople(date) {
     for (let i = 0; i < date.length; i++) {
         let currentDate = new Date();
         let birthdayDate = new Date(date[i][' birthday ']);
-        let daysInYear = 365;
+        const daysInYear = 365;
         let peopleAge = Math.ceil(daysBetween(currentDate, birthdayDate) / daysInYear);
         arrAge.push(peopleAge);
     }
-    let minAge = 18;
+    const minAge = 18;
     let count = filterArray(arrAge, function (number) {
         return number > minAge;
     })
