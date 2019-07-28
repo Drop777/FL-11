@@ -1,0 +1,95 @@
+button {
+   
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    background-color: lightgray;
+    box-shadow: 1px 1px;
+    font-size: 18px;
+}
+.cancel {
+    width: 75px;
+}
+.save {
+    width: 135px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 20px;
+}
+
+input {
+    border-radius: 6px;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+}
+
+td {
+    font-size: 22px;
+    text-align: center;
+}
+table {
+    border-spacing: 0 20px;
+}
+
+
+img {
+    display: block;
+}
+
+.todo-item > img.todo {
+    background-image: url(../assets\img\todo-s.png);
+    display: block;
+}
+
+.done  {
+    background-image: url(../assets\img\done-s.png);
+    display: none;
+}
+
+.remove > img {
+    display: block;
+}
+
+.desc-done {
+    background-color: rgb(122, 122, 122);
+    padding: 0 60px;
+    text-align: center;
+}
+
+#root {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.masage {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.list {
+    margin: 20px auto;
+}
+.item {
+    display: block;
+    padding: 5px 60px;
+    
+}
